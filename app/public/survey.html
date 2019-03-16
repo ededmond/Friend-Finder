@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Friend Finder</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/survey.css">
+        <script src="assets/javascript/survey.js"></script>
+    </head>
+    <body>
+        <div class = "container">
+            <div class ="row">
+                <div class = "col-12">
+                <h1>Please Answer the Following Questions</h1>
+                <hr>
+                <form>
+                    <h2 class = "question">About You</h2>
+                    <div class="form-group">
+                        <label for="name">Name (Required)</label>
+                        <input type="email" class="form-control" id="name" aria-describedby="name" placeholder="John Smith">
+                        <label for="photo">Link to Photo (Required)</label>
+                        <input type="email" class="form-control" id="photo">
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">1) I am an Introvert</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q1" id="q1-1" value="1">
+                            <label class="form-check-label" for="q1-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q1" id="q1-2" value="2">
+                            <label class="form-check-label" for="q1-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q1" id="q1-3" value="3">
+                            <label class="form-check-label" for="q1-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q1" id="q1-4" value="4">
+                            <label class="form-check-label" for="q1-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q1" id="q1-5" value="5">
+                            <label class="form-check-label" for="q1-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">2) I Like Horror Movies</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q2" id="q2-1" value="1">
+                            <label class="form-check-label" for="q2-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q2" id="q2-2" value="2">
+                            <label class="form-check-label" for="q2-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q2" id="q2-3" value="3">
+                            <label class="form-check-label" for="q2-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q2" id="q2-4" value="4">
+                            <label class="form-check-label" for="q2-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q2" id="q2-5" value="5">
+                            <label class="form-check-label" for="q2-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">3) I Like to Travel</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q3" id="q3-1" value="1">
+                            <label class="form-check-label" for="q3-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q3" id="q3-2" value="2">
+                            <label class="form-check-label" for="q3-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q3" id="q3-3" value="3">
+                            <label class="form-check-label" for="q3-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q3" id="q3-4" value="4">
+                            <label class="form-check-label" for="q3-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q3" id="q3-5" value="5">
+                            <label class="form-check-label" for="q3-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">4) My Career is the Most Important Thing</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q4" id="q4-1" value="1">
+                            <label class="form-check-label" for="q4-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q4" id="q4-2" value="2">
+                            <label class="form-check-label" for="q4-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q4" id="q4-3" value="3">
+                            <label class="form-check-label" for="q4-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q4" id="q4-4" value="4">
+                            <label class="form-check-label" for="q4-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q4" id="q4-5" value="5">
+                            <label class="form-check-label" for="q4-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">5) I Want to Have ____ Kids</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q5" id="q5-1" value="1">
+                            <label class="form-check-label" for="q5-1">No</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q5" id="q5-2" value="2">
+                            <label class="form-check-label" for="q5-2">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q5" id="q5-3" value="3">
+                            <label class="form-check-label" for="q5-3">2</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q5" id="q5-4" value="4">
+                            <label class="form-check-label" for="q5-4">3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q5" id="q5-5" value="5">
+                            <label class="form-check-label" for="q5-5">4+</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">6) I Love Animals</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q6" id="q6-1" value="1">
+                            <label class="form-check-label" for="q6-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q6" id="q6-2" value="2">
+                            <label class="form-check-label" for="q6-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q6" id="q6-3" value="3">
+                            <label class="form-check-label" for="q6-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q6" id="q6-4" value="4">
+                            <label class="form-check-label" for="q6-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q6" id="q6-5" value="5">
+                            <label class="form-check-label" for="q6-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">7) I am a Feminist</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q7" id="q7-1" value="1">
+                            <label class="form-check-label" for="q7-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q7" id="q7-2" value="2">
+                            <label class="form-check-label" for="q7-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q7" id="q7-3" value="3">
+                            <label class="form-check-label" for="q7-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q7" id="q7-4" value="4">
+                            <label class="form-check-label" for="q7-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q7" id="q7-5" value="5">
+                            <label class="form-check-label" for="q7-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">8) I Love Intellectual Discussions</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q8" id="q8-1" value="1">
+                            <label class="form-check-label" for="q8-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q8" id="q8-2" value="2">
+                            <label class="form-check-label" for="q8-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q8" id="q8-3" value="3">
+                            <label class="form-check-label" for="q8-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q8" id="q8-4" value="4">
+                            <label class="form-check-label" for="q8-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q8" id="q8-5" value="5">
+                            <label class="form-check-label" for="q8-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">9) I Love Meat</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q9" id="q9-1" value="1">
+                            <label class="form-check-label" for="q9-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q9" id="q9-2" value="2">
+                            <label class="form-check-label" for="q9-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q9" id="q9-3" value="3">
+                            <label class="form-check-label" for="q9-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q9" id="q9-4" value="4">
+                            <label class="form-check-label" for="q9-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q9" id="q9-5" value="5">
+                            <label class="form-check-label" for="q9-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <h2 class ="question">10) I Have Insomnia</h2>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q10" id="q10-1" value="1">
+                            <label class="form-check-label" for="q10-1">Strongly Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q10" id="q10-2" value="2">
+                            <label class="form-check-label" for="q10-2">Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q10" id="q10-3" value="3">
+                            <label class="form-check-label" for="q10-3">Neither Agree Nor Disagree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q10" id="q10-4" value="4">
+                            <label class="form-check-label" for="q10-4">Agree</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="q10" id="q10-5" value="5">
+                            <label class="form-check-label" for="q10-5">Strongly Agree</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
