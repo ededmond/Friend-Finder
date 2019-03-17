@@ -58,3 +58,10 @@ img {
 .btn:hover, .btn:focus {
     background-color:rgb(27, 43, 43);
 }
+a {
+    color:paleturquoise;
+}
+a:hover {
+    color:black;
+    text-decoration: none;
+}
