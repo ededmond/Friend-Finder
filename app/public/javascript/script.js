@@ -3,6 +3,9 @@ $(document).on("click","#finished",function() {
     let photo = $("#photo").val().trim();
     //prevent form from submitting and tell user what they missed
     if (name === "") {
+        // $("#display-friend").modal("show");
+
+        
         $("#warning").show();
         $("#name").addClass("red");
         return $("#name-label").addClass("red");
@@ -38,8 +41,8 @@ $(document).on("click","#finished",function() {
             answers:answers
         }
     }).then(function(res) {
-        $("#friend-name").text(res.name);
         $("#friend-photo").attr("src",res.photo);
+        $("#friend-name").text(res.name);
         $("#display-friend").modal("show");
         $("#form").trigger('reset');
     })
