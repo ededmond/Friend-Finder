@@ -8,3 +8,10 @@ hr {
 img {
     width:100%;
 }
+
+.red, #warning {
+    color: red;
+}
+#warning {
+    display : none;
+}
